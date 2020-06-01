@@ -11,7 +11,7 @@ h1 {
     text-shadow: 5px 5px 2px #303841;
 }
 
-h5 {
+h5, h3 {
     text-shadow: 3px 4px 1px #303841;
 }
 
@@ -40,4 +40,9 @@ a:hover {
 
 .progress-bar {
     background-color: #e6ac00;
+}
+
+.img-fluid {
+    max-height: 450px;
+    max-width: 100%;
 }
