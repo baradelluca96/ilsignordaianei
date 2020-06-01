@@ -2,47 +2,18 @@
     font-family: aniron-regular;
     src: url(./fonts/aniron.regular.ttf);
 }
-body {
-    background-color: #303841;
-    font-family: aniron-regular;
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: aniron-regular !important;
 }
 
-h1 {
-    text-shadow: 5px 5px 2px #303841;
+.masthead-subheading {
+    font-style: normal !important;
+    font-family: aniron-regular !important;
 }
 
-h5, h3 {
-    text-shadow: 3px 4px 1px #303841;
-}
-
-a {
-    color: #ffc107;
-}
-
-a:hover {
-    color: #b38600;
-}
-
-.figure-caption {
-    color: lightgrey;
-    font-size: x-small;
-}
-
-.jumbotron {
-    color: #eeeeee;
-    margin-top: 15px;
-    background-color: #3a4750
-}
-
-.progress {
-    background-color: #303841;
-}
-
-.progress-bar {
-    background-color: #e6ac00;
-}
-
-.img-fluid {
-    max-height: 450px;
-    max-width: 100%;
+.masthead-subheading-3 {
+    font-family: aniron-regular !important;
+    font-size: 30px !important;
+    letter-spacing: 3px;
 }
