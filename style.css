@@ -17,3 +17,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 30px !important;
     letter-spacing: 3px;
 }
+
+.progress-bar {
+    color: black;
+}
