@@ -18,6 +18,19 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 3px;
 }
 
+.progress-bars {
+    padding: 5px 20px 55px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 0 0.2rem 0.9rem rgba(0, 0, 0, 0.10);
+}
+
 .progress-bar {
     color: black;
+}
+
+.progress {
+    height: 23px;
+    font-size: medium;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
 }
