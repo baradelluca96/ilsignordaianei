@@ -38,3 +38,70 @@ h1,h2,h3,h4,h5,h6 {
 .download-section {
     margin: 40px 0 0 0;
 }
+
+.eye { 
+
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(139,0,0,1) 47%, rgba(255,181,0,0.9066001400560224) 100%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%) rotate(45deg);
+    border-radius: 55% 0;
+}
+
+.ball {
+    width: 175px;
+    height: 175px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    
+    border: 40px solid #ffed51;
+    animation: pulse 10s infinite
+}
+
+
+@keyframes pulse {
+	0% {
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(0.15);
+    }
+
+    5% {
+        transform: translate(-26%, -50%) rotate(-45deg) scaleX(0.12) scaleY(0.7);
+    }
+
+    20% {
+        transform: translate(-26%, -50%) rotate(-45deg) scaleX(0.20) scaleY(0.7);
+    }
+
+    25% {
+        transform: translate(-50%, -26%) rotate(-45deg) scaleX(0.25) scaleY(0.7);
+    }
+
+    45% {
+        transform: translate(-50%, -26%) rotate(-45deg) scaleX(0.15) scaleY(0.7);
+    }
+
+    50% {
+        transform: translate(-50%, -74%) rotate(-45deg) scaleX(0.15) scaleY(0.7);
+    }
+
+    60% {
+        transform: translate(-50%, -74%) rotate(-45deg) scaleX(0.15) scaleY(0.7);
+    }
+
+    70% {
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(0.15);
+    }
+
+    85% {
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(0.3);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-45deg) scaleX(0.15);
+    }
+}
