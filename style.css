@@ -66,6 +66,15 @@ h1,h2,h3,h4,h5,h6 {
     animation: pulse 10s infinite
 }
 
+.timeline-heading h4 {
+    font-size: 30px;
+}
+
+.timeline-heading .subheading {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
 
 @keyframes pulse {
 	0% {
