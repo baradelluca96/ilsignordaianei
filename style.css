@@ -16,6 +16,14 @@ h1,h2,h3,h4,h5,h6 {
     font-family: aniron-regular !important;
 }
 
+.btn {
+    color: black;
+}
+
+.btn-dark {
+    color: white;
+}
+
 .masthead-subheading-3 {
     font-family: aniron-regular !important;
     font-size: 30px !important;
