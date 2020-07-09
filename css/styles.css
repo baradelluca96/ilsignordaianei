@@ -10514,5 +10514,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 [data-handle="wistiaLogo"] {
-  display: none !important;
+  opacity: 0.01;
 }
