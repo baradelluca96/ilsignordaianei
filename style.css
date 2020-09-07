@@ -21,8 +21,22 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 0px;
 }
 
+.i18n {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.warn-back{
+    color: #143d59;
+}
+
+.warn-back:hover{
+    color: #143d59;
+    text-decoration: underline;
+}
+
 .current-translation {
     color: grey;
+    border-bottom: 1.3px solid grey;
 }
 
 .btn {
