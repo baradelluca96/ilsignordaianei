@@ -110,6 +110,14 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 18px;
 }
 
+.inner-alert {
+    box-shadow: 0 0.2rem 0.9rem rgba(0, 0, 0, 0.10);
+    color: black;
+    margin-top: 25px;
+    background-color: #ffc107;
+    opacity: 0.8;
+}
+
 
 @keyframes pulse {
 	0% {
