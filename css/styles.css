@@ -84,6 +84,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .film-section .trailers {
+    display: none;
+  }
+
+  .film-section .trailers-mini {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .film-section .trailers {
+    display: flex;
+  }
+
+  .film-section .trailers-mini {
+    display: none;
+  }
+}
+
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -10515,4 +10536,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 [data-handle="wistiaLogo"] {
   opacity: 0.01;
+}
+
+.thumbnail-film{
+  justify-content: center !important;
 }
