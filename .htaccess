@@ -1,2 +1,6 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
 # Redirect www.ilsignordaianei.it to www.associazioneaulus.it
 Redirect 301 / https://www.associazioneaulus.it/
