@@ -1,7 +1,5 @@
-Options +FollowSymLinks
-
 RewriteEngine On
-
-# Redirect www.ilsignordaianei.it to www.associazioneaulus.it
-Redirect 301 / https://www.associazioneaulus.it/
-Redirect 301 https://ilsignordaianei.com/ https://www.associazioneaulus.it/
+RewriteCond %{HTTP_HOST} !^www\.ilsignordaianei\.com$
+RewriteRule (.*) http://www.associazioneaulus.it/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^ilsignordaianei\.com$
+RewriteRule (.*) http://www.associazioneaulus.it/$1 [R=301,L]
