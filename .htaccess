@@ -1,3 +1,10 @@
 RewriteEngine on
-Redirect 301 (.*) https://www.associazioneaulus.it/
-Redirect 301 / https://www.associazioneaulus.it/
+
+# Redirect to another domain: www.associazioneaulus.it.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^(www\.)?associazioneaulus\.it$ [NC]
+RewriteRule (.*) http://www.associazioneaulus.it [R=301,L]
+# Same for HTTPS:
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^(www\.)?associazioneaulus\.it$ [NC]
+RewriteRule (.*) https://www.associazioneaulus.it [R=301,L]
