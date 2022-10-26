@@ -1,3 +1,2 @@
 RewriteEngine on
-RewriteBase /
 RewriteRule / https://www.associazioneaulus.it/ [R=301,L]
