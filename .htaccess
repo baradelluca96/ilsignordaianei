@@ -1,1 +1,2 @@
-Redirect permanent / https://www.associazioneaulus.it/
+Redirect 301 (.*) https://www.associazioneaulus.it/
+Redirect 301 / https://www.associazioneaulus.it/
